@@ -9,7 +9,7 @@ baseline: spec
 					with: [ spec requires: 'PakbotTestExample-PackageA' ];
 				package: 'PakbotTestExample-PackageC';
 				package: 'PakbotTestExample-PackageD'
-					with: [ spec requires: 'PakbotTestExample-PackageD' ].
+					with: [ spec requires: 'PakbotTestExample-PackageC' ].
 				
 				spec
 			group: 'ALL' with: #( 'PakbotTestExample-PackageB' 'PakbotTestExample-PackageD' );
